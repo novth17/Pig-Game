@@ -19,7 +19,6 @@ const btnHold = document.querySelector(".btn--hold");
 let scores, currentScore, activePlayer, playing;
 
 const init = function () {
-  //we will store the big score of each player in an array
   // starting condition make score become 0
   scores = [0, 0];
   //set current player score to 0
@@ -50,7 +49,6 @@ const switchPlayer = function () {
   player0El.classList.toggle("player--active");
   player1El.classList.toggle("player--active");
 };
-// FUNCTIONS!!!!!!!!!
 
 // ROLL DICE FUNCTIONALITY
 btnRoll.addEventListener("click", function () {
@@ -63,7 +61,6 @@ btnRoll.addEventListener("click", function () {
     diceEl.src = `dice-${diceRollResult}.png`;
 
     //3. check if roll is 1. If true,
-
     if (diceRollResult !== 1) {
       // add Dice Result to current score
       currentScore += diceRollResult;
@@ -103,7 +100,5 @@ btnHold.addEventListener("click", function () {
     }
   }
 });
-
 // New game function
-
 btnNew.addEventListener("click", init);
