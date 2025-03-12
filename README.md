@@ -32,7 +32,7 @@ A fun and interactive dice game built using **HTML, CSS, and JavaScript**! Test 
 ## 🛠️ Technologies Used
 
 - **HTML** → Structuring the game layout.
-- **CSS** → Styling the game with a sleek UI.
+- **CSS** → Styling the game with a cute UI.
 - **JavaScript** → Implementing game logic and interactivity.
 
 ## 🎮 How to Play
@@ -49,20 +49,8 @@ A fun and interactive dice game built using **HTML, CSS, and JavaScript**! Test 
 
 ### 🎲 Game Flowchart
 
-![Game Flow](pig-game-flowchart.png)
+![Game Flow](pig-game-flowchart.jpg)
 
 ### 🎮 Game UI
 
-(Include a screenshot of your game UI here)
-
-## 📌 Future Improvements
-
-- Add **single-player mode** against AI 🤖
-- Implement **different difficulty levels**
-- Improve UI animations and sound effects 🎵
-
-## 📝 Author
-
-Developed by **[Your Name]** 🚀
-
-Happy Coding! 🎲🎮
+![Game UI](pig-game-UI.jpg)
